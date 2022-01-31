@@ -1,0 +1,119 @@
+{
+  "contractName": "GlassKey",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.11+commit.d7f03943\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/GlassKey.sol\":\"GlassKey\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/GlassKey.sol\":{\"keccak256\":\"0xc0ac4036a29b5a3b3fc57ae1bdd023957836c9a0259c2e938791589654f40732\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5aeab2f7f313f2fcb30806659e7bef21be02c76cca47acc977c6d3c39e1277ea\",\"dweb:/ipfs/QmZFXKxSuWADM2xQaPtWbhKM6VR618kfzWvuXph5gSVym9\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122073d88415d79d2805741a914605d288db7b7002ae74a7673dd87f46856c8b625c64736f6c634300080b0033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122073d88415d79d2805741a914605d288db7b7002ae74a7673dd87f46856c8b625c64736f6c634300080b0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "57:26:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "57:26:0:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ncontract GlassKey {\n    \n}",
+  "sourcePath": "/Users/nathanvasquez/Developer/GlassKeys/contracts/GlassKey.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/GlassKey.sol",
+    "exportedSymbols": {
+      "GlassKey": [
+        2
+      ]
+    },
+    "id": 3,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "GlassKey",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "GlassKey",
+        "nameLocation": "66:8:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "57:26:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:51:0"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/GlassKey.sol",
+    "exportedSymbols": {
+      "GlassKey": [
+        2
+      ]
+    },
+    "id": 3,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "GlassKey",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "GlassKey",
+        "nameLocation": "66:8:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "57:26:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:51:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.11+commit.d7f03943.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-01-31T00:36:58.929Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
