@@ -1,4 +1,4 @@
-import Web3 from "web3";
+import Web3 from "https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.1/web3.min.js";
 
 // "Web3.givenProvider" will be set if in an Ethereum supported browser.
 var web3 = new Web3(Web3.givenProvider || 'ws://some.local-or-remote.node:8546');
