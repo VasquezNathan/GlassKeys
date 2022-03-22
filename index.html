@@ -2,7 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.6.1-rc.0/web3.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.6.1-rc.0/web3.min.js" crossorigin="anonymous">
+        const ethereumButton = document.querySelector('.enableEthereumButton');
+
+        ethereumButton.addEventListener('click', () => {
+        //Will Start the metamask extension
+        ethereum.request({ method: 'eth_requestAccounts' });
+        });
+
+    </script>
     <title>The DPM</title>
 </head>
 <body>
