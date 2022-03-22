@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.6.1-rc.0/web3.min.js" crossorigin="anonymous">
-        const ethereumButton = document.querySelector('.enableEthereumButton');
+        var Web3 = require('web3');
 
+
+        const ethereumButton = document.querySelector('.enableEthereumButton');
         ethereumButton.addEventListener('click', () => {
-        //Will Start the metamask extension
-        ethereum.request({ method: 'eth_requestAccounts' });
+            //Will Start the metamask extension
+            ethereum.request({ method: 'eth_requestAccounts' });
         });
 
     </script>
