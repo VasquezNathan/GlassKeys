@@ -3,24 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.6.1-rc.0/web3.min.js" crossorigin="anonymous">
-        // var Web3 = require('web3');
-        document.getElementById("ticker").innerText = "we are here";
+    </script>
+    <script type="text/javascript">
+        console.log(Web3.givenProvider);
 
-
-
-        // const ethereumButton = document.querySelector('.enableEthereumButton');
-        // ethereumButton.addEventListener('click', () => {
-        //     //Will Start the metamask extension
-        //     // ethereum.request({ method: 'eth_requestAccounts' });
-        //     console.log("clicked");
-        //     console.log(Web3);
-        // });
+        var web3 = new Web3(Web3.givenProvider);
+        console.log(web3);
+        web3.eth.getBalance("0x9c555c1dE936feDDe75a57c3f07ffeb984FC3EBd").then(console.log);
 
     </script>
     <title>DOA Ticker</title>
 </head>
 <body>
-    <p id="ticker"></p>
+    <p id="ticker">we are not here</p>
     <!-- <button id="ticker" class="ethereumButton">DOA Ticker</button> -->
 </body>
 </html>
