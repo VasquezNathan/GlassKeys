@@ -11,7 +11,8 @@
         console.log(web3);
         var balanceOfDoa
         web3.eth.getBalance("0x9c555c1dE936feDDe75a57c3f07ffeb984FC3EBd").then(function(result){
-            balanceOfDoa = result;
+            balanceOfDoa = web3.utils.fromWei(result);
+
             console.log(balanceOfDoa);
         })
         
