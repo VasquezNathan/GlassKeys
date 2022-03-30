@@ -6,7 +6,8 @@
     </script>
     <script type="text/javascript">
         var SetDoaBalance = function(balance) {
-            document.getElementById("ticker").innerText = balance;
+            var tickerText = "DOA Balance: " + balance;
+            document.getElementById("ticker").innerText = tickerText;
         }
 
         console.log(Web3.givenProvider);
@@ -20,10 +21,14 @@
         });
         
     </script>
+    <style>
+        .ticker {
+            text-align: center;
+        }
+    </style>
     <title>DOA Ticker</title>
 </head>
 <body>
-    <p id="ticker">we are not here</p>
-    <!-- <button id="ticker" class="ethereumButton">DOA Ticker</button> -->
+    <p class="ticker" id="ticker">Loading...</p>
 </body>
 </html>
