@@ -5,6 +5,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.6.1-rc.0/web3.min.js" crossorigin="anonymous">
     </script>
     <script type="text/javascript">
+        var SetDoaBalance = function(balance) {
+            document.getElementById("ticker").innerHTML = balance;
+        }
+
         console.log(Web3.givenProvider);
 
         var web3 = new Web3(Web3.givenProvider);
@@ -12,9 +16,8 @@
         var balanceOfDoa
         web3.eth.getBalance("0x9c555c1dE936feDDe75a57c3f07ffeb984FC3EBd").then(function(result){
             balanceOfDoa = web3.utils.fromWei(result);
-
-            console.log(balanceOfDoa);
-        })
+            SetDoaBalance(balanceOfDoa);
+        });
         
     </script>
     <title>DOA Ticker</title>
