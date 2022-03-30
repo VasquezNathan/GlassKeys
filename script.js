@@ -2,7 +2,7 @@ var balanceOfDoa
 // function sets/formats innerText of element with ticker id 
 // declared as a function so it can be called after web3 promise.
 var SetDoaBalance = function(balance) {
-    var tickerText = "DOA Balance: " + balance + " ETH";
+    var tickerText = "DAO Balance: " + balance + " ETH";
     document.getElementById("ticker").innerText = tickerText;
 }
 
