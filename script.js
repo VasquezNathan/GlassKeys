@@ -18,5 +18,5 @@ try{
 }
 catch(error){
     console.error(error);
-    document.getElementById("ticker").innerText = "If you are seeing this then MetaMask (or other hotwallet) is either not installed or is outdated.";
+    document.getElementById("ticker").innerText = "There was an error retrieving information from Ethereum network.";
 }
