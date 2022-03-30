@@ -12,7 +12,7 @@ try{
     // if there is no injected web3 from the browser (MetaMask or similar) then try infura remote node 
     var web3 = new Web3(Web3.givenProvider || window.ethereum || "https://mainnet.infura.io/v3/8c8df2a012ff47e99a72135c14177be2");
     web3.eth.getBalance("0x9c555c1dE936feDDe75a57c3f07ffeb984FC3EBd").then(function(result){
-        balanceOfDoa = web3.utils.fromWei(result);
+        balanceOfDoa = (web3.utils.fromWei(result)).substr(0, 5);
         SetDoaBalance(balanceOfDoa);
     });
 }
