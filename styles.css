@@ -1,6 +1,6 @@
 .encase {
     margin: auto;
-    /* font-family: 'haas'; */
+    font-family: 'haas';
     font-size: larger;
     display: flex;
     flex-direction: column;
