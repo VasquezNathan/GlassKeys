@@ -1,6 +1,6 @@
 .encase {
     margin: auto;
-    font-family: 'haas';
+    /* font-family: 'haas'; */
     font-size: larger;
     display: flex;
     flex-direction: column;
@@ -16,5 +16,5 @@
 }
 @font-face {
     font-family: "haas";
-    src: url(Fonts/NeueHaasDisplayRoman.ttf);
+    src: url(Fonts/NeueHaasDisplayRoman.ttf), url(../../Fonts/NeueHaasDisplayRoman.ttfs)
 }
