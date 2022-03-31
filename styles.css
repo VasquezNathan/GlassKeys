@@ -1,4 +1,20 @@
+.encase {
+    margin: auto;
+    font-family: 'haas';
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sendEthButtonStyles{ 
+    margin: 0 auto;
+    /* outline: 2px blue dotted */
+}
 .ticker {
-    text-align: center;
-    font-size: large;
+    margin: 0 auto;
+    /* outline: 2px red dotted; */
+}
+@font-face {
+    font-family: "haas";
+    src: url(Fonts/NeueHaasDisplayRoman.ttf);
 }

@@ -20,3 +20,8 @@ catch(error){
     console.error(error);
     document.getElementById("ticker").innerText = "There was an error retrieving information from Ethereum network.";
 }
+
+window.addEventListener('DOMContentLoaded', () => {
+    var sendEthButton = document.querySelector(".sendEthButton");
+    console.log(sendEthButton);
+});
