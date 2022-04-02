@@ -3,7 +3,7 @@ var balanceOfDoa
 // declared as a function so it can be called after web3 promise.
 var SetDoaBalance = function(balance) {
     var tickerText = balance;
-    document.getElementById("ticker").innerText = tickerText;
+    document.getElementById("ticker_ETH").innerText = tickerText;
 }
 
 // attempt to do web3 stuff.
