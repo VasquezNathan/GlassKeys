@@ -1,24 +1,16 @@
 .encase {
-    margin: auto;
     font-family: 'haas';
-    font-size: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.sendEthButtonStyles{ 
-    margin: 0 auto;
-    /* outline: 2px blue dotted */
+    font-size: 48px;
 }
 .ETH{
     font-family: 'haas_bold';
-    margin-top: 0;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
 }
-.ticker {
-    margin-left: auto; 
-    margin-right: auto;
-    font-family: 'haas';
-    /* outline: 2px red dotted; */
+.tickertext{
+    text-align: center;
+    margin: 0;
 }
 @font-face {
     font-family: "haas";
@@ -27,4 +19,15 @@
 @font-face {
     font-family: "haas_bold";
     src: url(Fonts/NeueHaasDisplayBold.ttf);
+}
+
+header {
+    margin: 0;
+    height: 0;
+    padding: 0;
+}
+
+body {    
+    margin: 0 !important;
+    padding: 0 !important;
 }
