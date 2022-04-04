@@ -7,8 +7,23 @@ var sendMoney = function() {
             console.log(result);
         });
        
+        ethereum.request({ method: 'eth_sendTransaction',
+            params: [
+                {
+                from: accounts[0],
+                to: '0x2f318C334780961FB129D2a6c30D0763d9a5C970',
+                value: '0x3782DACE9D90000',
+                gasPrice: '0x09184e72a000',
+                gas: '0x2710', 
+                },
+            ],
+        })
+        .then((txHash) => console.log(txHash))
+        .catch((error) => console.error);
     }
-    alert("Please use a browser with MetaMask installed!");
+    else{
+        alert("Please use a browser with MetaMask installed!");
+    }
     
 }
 
