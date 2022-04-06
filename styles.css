@@ -20,6 +20,10 @@
     font-family: "haas_bold";
     src: url(Fonts/NeueHaasDisplayBold.ttf);
 }
+@font-face {
+    font-family: "haas_roman";
+    src: url(Fonts/NeueHaasDisplayRoman.ttf);
+}
 
 header {
     margin: 0;
@@ -39,9 +43,13 @@ body {
     background-color: black;
     border: none;
     padding: 10px;
-    font-size: 15px      ;
     color: white;
     align-items: center;
     align-content: center;
     text-align: center;
+    font-family: "haas_roman";
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .02em;
 }
