@@ -40,5 +40,9 @@ body {
     border: none;
     padding: 10px;
     font-size: large;
-    color:  #cdd96e;
+    color: white;
+    height: 60px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
