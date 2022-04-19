@@ -11,8 +11,8 @@ var sendMoney = function() {
                     from: accounts[0],
                     // just some dao's address
                     to: '0xA1c93A449bD671818353F870Fbc86c6E9F1809FB',
-                    // value: '0x3782DACE9D90000', // 0.25 ETH
-                    value: '0x011C37937E08000', //0.005 ETH
+                    value: '0x3782DACE9D90000', // 0.25 ETH
+                    // value: '0x011C37937E08000', //0.005 ETH
                     },
                 ],
             })
